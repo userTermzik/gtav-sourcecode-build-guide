@@ -1,4 +1,4 @@
-## Known Bugs and Errors
+# Known Bugs and Errors
 
 > B = Bug - E = Error - F = Fix
 
@@ -22,3 +22,11 @@ To do this, Follow this steps:
 
 **E:** Couldn't connect to RAG.exe. Keep trying?<br>
 **F:** Just Simply Open the RAG Manually, then start **launch.bat**.
+
+# Known Issues
+* Script Hook doesn't work in debug builds.
+  * Probably There is %100 way to make this work but i dont know. 
+* Game crashes if you open "Keybinds" Menu.
+  * It's because the game tries to load a missing keyboard layout file.
+    * This can be fixed by just editing some lines in the source code.
+  
