@@ -24,8 +24,6 @@ To do this, Follow this steps:
 **F:** Just Simply Open the RAG Manually, then start **launch.bat**.
 
 # Known Issues
-* Script Hook Doesn't Work
-  * Probably There is %100 way to make this work but i dont know. 
 * Game crashes if you open "Keybinds" Menu
   * It's because the game tries to load a missing keyboard layout file.
     * This can be fixed by just editing some lines in the source code.
