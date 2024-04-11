@@ -8,6 +8,8 @@
 
 ## Main
 - [x] Game
+  - [ ] Script Hook V and ASI Loaders
+    - I didn't tested these in the Final Build, so maybe it'll work in Final Build.
 - [x] Tools
   - [x] Rage Script Editor
   - [x] Rag UI and Interface
