@@ -24,7 +24,7 @@ To do this, Follow this steps:
 **F:** Just Simply Open the RAG Manually, then start **launch.bat**.
 
 # Known Issues
-* Game crashes if you open "Keybinds" Menu
+* Game crashes if you open "Keybinds" Menu in BankRelease or Debug Builds.
   * It's because the game tries to load a missing keyboard layout file.
     * This can be fixed by just editing some lines in the source code.
   
