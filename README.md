@@ -12,9 +12,9 @@
  - GTA V Files from Steam, Epic Games or Rockstar Games Launcher
  - GTAVSP.7z<br>
     - **Download Link: [All Available Download Links](/misc/links.md)**
+    - Archive Password: `Mi76#b>9mRed`
    - You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`
-   - To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`
-   - Archive password: `Mi76#b>9mRed`
+     - To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/file/3j5yAYzR#guzO1Yw80efLfmHIPdY8gcPFAHJn7ncF1voadjdpaLE)
 
 ### Dependencies
@@ -48,18 +48,19 @@
 > It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC. VMWare/Hyper-V are recommended to run the VM due to their performance.
 
 ## Prerequisite Setup
-1. Install DirectX SDK June 2010 and 7-Zip
-2. Install Visual Studio 2012
+1. Install DirectX SDK June 2010
+2. Install 7-Zip
+3. Install Visual Studio 2012
    - Uncheck all optional components in the installer **except "Microsoft Foundation Classes for C++"** to save space, none of them are needed for the build.
-3. Install Update 4 for Visual Studio 2012
-4. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
+4. Install Update 4 for Visual Studio 2012
+5. Install Incredibuild 4.0 (Only needed for compiling shaders and scripts)
    - If you encounter the error that the installer is "Blocked by your administrator", follow these steps:
    1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
    2. Open Command Prompt as Administrator
    3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
-5. Install OpenIV
-6. Install Miscellaneous Files
+6. Install OpenIV
+7. Install Miscellaneous Files
 8. Create X:\ Drive by following the steps at the bottom
    1. Open Command Prompt
    2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
@@ -170,99 +171,4 @@ rag
 
 ## BankRelease & Debug Controls
 
-[Full list dumped from game files](/misc/Keyboard_Overview.pdf)
-
-**Here is the partial list:**
-```
-Legend:
-LCTRL -- Left control.
-RCTRL -- Right control.
-LALT - Left alt.
-RALT - Right alt.
-LSHIFT - Left shift
-RSHIFT - Right shift.
-
-Main keybinds:
-CTRL + TAB -> Switch between game keyboards. Available are debug, marketing, game and replay.
-
-Debug Keybinds:
-Backtick ---> Toggle scene information.
-Ins (Numpad) ---> Remove debug screen information.
-Del (Numpad) ---> Creates a copy of you.
-Page up (Numpad) ---> Toggle CPU information.
-CTRL + Del (Numpad) ---> Creates a copy of you and sets as your main.
-CTRL + Num lock (Numpad) ---> Freezes the game. (literally)
-ALT + Enter (Numpad) ---> Fullscreen.
-
-Page up / Page down ---> Change game weather.
-Scroll Lock ---> Appears "Streaming paused" message.
-Break (Pause break) ---> Freezes the game. (literally)
-
-A ---> Toggle AI display info variants.
-B ---> Toggle render info.
-D ---> Enable/Disable debug pad.
-G ---> Teleport (mouse)
-H ---> Health cheat
-I ---> Show navmeshes
-J ---> Skip to next segment of mission
-N ---> Appears your character name in minimap and weird red sphere. (It's AI Walking).
-O ---> Toggles minimap on the screen.
-Q ---> Changes current character model.
-R ---> Navigation info, ambient vehicle info
-S ---> Reload shaders
-U ---> Spawns a vehicle.
-V ---> Invincibility
-W ---> Gives a specific amount of all weapons in the game.
-X ---> Toggles character clothes info.
-Z ---> Mission Debug Menu
-F1 ---> Toggle Peds/Cards/Objects/Physics instances and lights info.
-F2 ---> AI Combat debug info.
-F3 ---> Decrease Wanted Level
-F5 ---> Teleports to random location.
-F8 ---> FAMILY_CONTROLLER / PLAYER_SWITCH STATE INFORMATION
-F9 ---> GAMEFLOW STATE INFORMATION
-F10 ---> FRIEND_CONTROLLER STATE INFORMATION
-F11 ---> RANDOM EVENTS DEBUG DISPLAY
-F12 ---> SCRIPT METRICS DEBUG INFO.
-
-CTRL + A ---> Remove AI display info.
-CTRL + B ---> Remove box modifier gui.
-LCTRL + C ---> Get all available promotions.
-RCTRL + C ---> Show prop hitboxes.
-CTRL + D ---> Opens filter menu.
-CTRL + F ---> Toggle prop/vehicle information like life ratio.
-CTRL + G ---> #UNKNOWN
-CTRL + I ---> Toggle mouse relative debug info.
-Ctrl + N ---> Show player/vehicle tags.
-Ctrl + P ---> Toggle information about promps and show character's hitbox.
-Ctrl + T ---> Clear Mission trigger
-Ctrl + U ---> Spawns or teleports a vehicle. #PARTIALLYKNOWN
-Ctrl + W ---> Unlimited Ammo.
-RCTRL + Right/Left arrow key ---> Increase/Decrease timescale.
-
-Ctrl + Shift + C ---> Prop hitboxes.
-Ctrl + Shift + H ---> Spawn a human.
-Ctrl + Shift + R ---> Init telemetry. #PARTIALLYKNOWN
-Ctrl + Shift + P ---> Spawns a car.
-
-ALT + A ---> Toggle vehicle information.
-ALT + C ---> Cycle through Camera Debug Displays
-ALT + G ---> Change game shader.
-ALT + H ---> Toggle shader information.
-ALT + M ---> Position zoom.
-ALT + O ---> Toggle overdraw info.
-ALT + T ---> Toggle texture view gui.
-ALT + W ---> Show every prop's hitbox.
-ALT + X ---> Removes power cables.
-
-SHIFT/CTRL + B ---> Toggle collision debug info.
-SHIFT + H ---> Teleports to your house.
-SHIFT + K ---> LowTierGod. (Kills the player.)
-SHIFT + O ---> Toggle Overview gui.
-SHIFT + P ---> Change characters model in vehicle.
-SHIFT + R ---> Toggle peds info.
-SHIFT + T ---> Change trigger zone.
-SHIFT + U ---> Spawns a vehicle and makes your driver auto.
-
-Ctrl + Alt + I ---> Toggle weapon/inputs information.
-```
+[All The Controls & Keys](/misc/controls)
