@@ -79,7 +79,7 @@ setx /m RS_PROJECT gta5
 
 * By the end, Your Folder Structure should look like this:
 ```
-🖥️X:
+🖥️ X:
  ┗ 📂 gta5
     ┣ 📂 3rdParty (OPTIONAL)
     ┣ 📂 src
