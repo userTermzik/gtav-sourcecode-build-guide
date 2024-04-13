@@ -1,4 +1,5 @@
 ![Icon](/misc/icon.png)
+
 # 📜 GTA V Source Code Build Guide
  
 🖥️ **Working Status of Tools and Game:** [See Here](/workingstatus.md)<br>
@@ -8,9 +9,11 @@
 
 ## Requirements
 ### Base
- - Minimum 50GB Free Space, 130GB+ is Recommended because of the game files.
+ - Windows 10/11
+    - [LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended, but you can use Normal Windows 10/11 too.
  - GTA V Files from Steam, Epic Games or Rockstar Games Launcher
- - GTAVSP.7z<br>
+ - Minimum 50GB Free Space, 130GB+ is Recommended because of the game files.
+ - GTAVSP.7z - Source Code<br>
     - **Download Link: [All Available Download Links](/misc/links.md)**
     - Archive Password: `Mi76#b>9mRed`
    - You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`
@@ -18,8 +21,6 @@
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/file/3j5yAYzR#guzO1Yw80efLfmHIPdY8gcPFAHJn7ncF1voadjdpaLE)
 
 ### Dependencies
- - Windows 10/11
-    - [LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended, but you can use Normal Windows 10/11 too.
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
     - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
