@@ -63,7 +63,7 @@
     1. Open Command Prompt
     2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
     3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
-      - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes` 
+       - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes` 
 10. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
 11. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
 12. Copy all folders in `dll_patches_x.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying.
