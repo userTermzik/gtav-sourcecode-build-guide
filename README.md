@@ -23,6 +23,7 @@
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
     - [Update 4 for Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012%20Update%204/mu_visual_studio_2012_update_4_x86_dvd_3161759.iso)
  - [DirectX SDK June 2010](https://download.microsoft.com/download/A/E/7/AE743F1F-632B-4809-87A9-AA1BB3458E31/DXSDK_Jun10.exe)
+ - (OPTIONAL) [3D Studio Max 2010 SDK](https://archive.org/details/sdk-3ds-max-2010)
  - [Incredibuild 4.0](https://xoreax-incredibuild.software.informer.com/4.0/)
     - This is only needed for Compiling Shaders and Game Scripts.
  - [7-Zip](https://7-zip.org/a/7z2301-x64.exe)
@@ -32,13 +33,9 @@
 
 ### Miscellaneous
  - [Rush Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641602/rush_patches-master.zip)
- - [DLL Patches](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14641382/dll_patches.zip)
+ - [DLL Patches](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guide/files/14965810/dll_patches_x.zip)
  - (OPTIONAL) [3rdParty Folder](https://mega.nz/file/SqojFJZL#eYINo1pnspuTvdbocz4cA7NYZA8BN2H2nm7YEXuzlFw)
-    - Extract and Put the folder to `X:\gta5\`
- - (OPTIONAL) [Fixed ShortcutMenu](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14735751/fixedshortcut.zip)
-    - Extract and put the folder to `X:\gta5\tools_ng\bin\`
- - (OPTIONAL) [3D Studio Max 2010 SDK](https://archive.org/details/sdk-3ds-max-2010)
- - (VERY OPTIONAL) [gIKgDXuVHNzIgXkiwpB.zip](https://big.fileditchnew.ch/b9/gIKgDXuVHNzIgXkiwpB.zip)
+ - (OPTIONAL) [gIKgDXuVHNzIgXkiwpB.zip - Art Asset Leak](https://big.fileditchnew.ch/b9/gIKgDXuVHNzIgXkiwpB.zip)
 
 ## Prebuilt Files
  - [Shaders](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/files/14649717/common.zip)
@@ -61,32 +58,35 @@
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
 6. Install OpenIV
 7. Install Miscellaneous Files
-8. Create X:\ Drive by following the steps at the bottom
-   1. Open Command Prompt
-   2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
-   3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
-       - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes` 
-9. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
+8. (OPTIONAL) Install 3D Studio Max 2010 SDK
+9. (OPTIONAL) Install 3rdParty Folder
+   - Extract and Put the folder to `X:\gta5\`
+11. Create X:\ Drive by following the steps at the bottom
+    1. Open Command Prompt
+    2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
+    3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
+      - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes` 
+11. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
    - By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
-10. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-11. Copy all folders in `dll_patches.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-12. Open Command Prompt as Administrator and run the following commands, then close:
+11. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
+12. Copy all folders in `dll_patches_x.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
+13. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 setx /m RS_PROJECT gta5
 ```
-12. To ensure changes are finalized, restart build machine/computer.
+14. To ensure changes are finalized, restart build machine/computer.
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
 2. Copy `game` and `rage` folders to `X:\gta5\src\dev_ng`, make sure to overwrite when copying
-3. (OPTIONAL) To skip launcher requirement for running the game, copy `game` and `rage` folders from `OPTIONAL_FIXES` to the same folder
+3. (OPTIONAL) To skip launcher requirement for running the game, copy `game` and `rage` folders from `rush_patches-master.zip\OPTIONAL_FIXES` to the same folder
 
 ## Building The Game Binary
 1. Run `X:\gta5\src\dev_ng\game\VS_Project\load_sln_unity_2012.bat`
-	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and click OK.
+	- If prompted with "How do you want to open this file?", check "Always use this app to open .sln files" and Select **Visual Studio 2012** then click OK.
 2. Once the solution loads, open the dropdown menu that says "Debug" at the top, select "Configuration Manager"
 3. Change "Active Solution Platform" to "x64" and close the configuration window
 4. Hold Ctrl key and click all projects under "GameLibs" and "Rage", right-click and select "Properties"
@@ -106,13 +106,13 @@ setx /m RS_PROJECT gta5
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
     - If you building in "BankRelease", Dont forget to build shaders with "Release Win32 4.0" in **Configuration Manager**.
     - Also, the same thing needs to apply to "shaders_dependency", Change "Debug" to "Release" in **Configuration Manager**
-    - **If you compiling with Debug, then ignore the steps at the top and continue reading the tutorial.**
+    - **If you compiling the whole game in Debug, then ignore the steps at the top and continue reading the tutorial.**
 2. (OPTIONAL) Build low quality shaders
    1. Right click the "shaders_rc" project and click "Properties"
    2. Select `Configuration Properties > NMake`
    3. Under "General", change all command lines from ending with `win32_40.bat` to ending with `win32_40_lq.bat`, then click "Apply" and "OK"
    4. Rebuild shaders
-   3. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory
+   5. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory
 
 ## Building Game Scripts
 1. Open Command Prompt
@@ -132,7 +132,7 @@ ragScriptEditor
 2. Select the game folder and click "Continue"
 3. Open `GTA V\update\update2.rpf\x64\levels\gta5\script`
 4. Click the "Edit mode" button, and copy `X:\gta5\titleupdate\dev_ng\x64\levels\gta5\script\script.rpf` to the OpenIV window
-5. Fix Story Mode by following the steps at the bottom
+5. (OPTIONAL) Fix Story Mode by following the steps at the bottom
    1. Open `GTA V\update\update.rpf\common\data` and make sure "Edit Mode" is enabled
    2. Under "XML Text Files", right-click `gameconfig.xml` and click "Edit"
    3. Under "Search", type "51000"
@@ -140,8 +140,9 @@ ragScriptEditor
    5. Click "Save"
 6. Close OpenIV
 7. From `rush_patches-master.zip`, copy all files in the `ARCHIVEFIX` folder to a separate location
-8. Open `<GAME FOLDER>\update`, and drag `update.rpf` and `update2.rpf` onto `ArchiveFix.exe`
-9. Close both windows
+8. Open `<GAME FOLDER>\update`, and drag `update.rpf` and then `update2.rpf` onto `ArchiveFix.exe`
+   * Do not drag the both files at the same time. 
+10. Close both windows
 
 ## Running The Game
 1. In the game directory, create a file named `launch.bat` and add these contents:
@@ -158,7 +159,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
     - If you dont type this parameter, you will spawned in a random location as a random character with a random clothes. 
  - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows DLC and Other Cars without getting removed.
  - Additional standard game arguments can be added as well.
- - [Here is all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
+   - [Here is all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
 ```batch
 X:
