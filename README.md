@@ -84,7 +84,7 @@ setx /m RS_PROJECT gta5
     ┣ 📂 3rdParty (OPTIONAL)
     ┣ 📂 src
     ┣ 📂 script
-    ┣ 📂 tools_ng
+    ┗ 📂 tools_ng
 ```
 
 ## Patching The Source Code
