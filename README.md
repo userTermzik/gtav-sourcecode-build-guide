@@ -59,25 +59,33 @@
 6. Install OpenIV
 7. Install Miscellaneous Files
 8. (OPTIONAL) Install 3D Studio Max 2010 SDK
-9. (OPTIONAL) Install 3rdParty Folder
-   - Extract and Put the folder to `X:\gta5\`
-11. Create X:\ Drive by following the steps at the bottom
+9. Create X:\ Drive by following the steps at the bottom
     1. Open Command Prompt
     2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
     3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
       - Example: `net use X: \\localhost\c$\Users\abcd\Desktop\GTA /persistent:yes` 
-11. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
-   - By the end, you should have the folders `X:\gta5\src`, `X:\gta5\script`, and `X:\gta5\tools_ng`. If the paths are different or some folders are missing, try re-extracting or moving as needed.
+10. Create the folder `X:\gta5` and copy all folders from `GTAVSP.7z\GTA V Source` into it
 11. Right click the folder `X:\gta5`, select "Properties", uncheck "Read-only", click Apply then OK
-12. Copy all folders in `dll_patches_x.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying
-13. Open Command Prompt as Administrator and run the following commands, then close:
+12. Copy all folders in `dll_patches_x.zip` to `X:\gta5\tools_ng\bin`, make sure to overwrite when copying.
+13. (OPTIONAL) Install 3rdParty Folder, Extract and Put the folder to `X:\gta5\`
+14. Open Command Prompt as Administrator and run the following commands, then close:
 ```batch
 setx /m RS_TOOLSROOT X:\gta5\tools_ng
 setx /m DXSDK_DIR "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
 setx /m RS_CODEBRANCH X:\gta5\src\dev_ng
 setx /m RS_PROJECT gta5
 ```
-14. To ensure changes are finalized, restart build machine/computer.
+15. To ensure changes are finalized, restart build machine/computer.
+
+* By the end, Your Folder Structure should look like this:
+```
+🖥️X:
+ ┗ 📂 gta5
+    ┣ 📂 3rdParty (OPTIONAL)
+    ┣ 📂 src
+    ┣ 📂 script
+    ┣ 📂 tools_ng
+```
 
 ## Patching The Source Code
 1. Open `rush_patches-master.zip`
