@@ -56,11 +56,11 @@
    1. Hold Shift and right click the `incredibuild4_0.exe` file, select "Copy as path"
    2. Open Command Prompt as Administrator
    3. Paste the path and press Enter
-   - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio
+   - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio.
 6. Install OpenIV
 7. Install Miscellaneous Files
 8. (OPTIONAL) Install 3D Studio Max 2010 SDK
-9. Create X:\ Drive by following the steps at the bottom
+9. Create X:\ Drive by following the steps at the bottom:
     1. Open Command Prompt
     2. Create a new folder called "GTA" to the Desktop or anywhere that you want.
     3. Run `net use X: \\localhost\c$\<Path to working folder for build> /persistent:yes`
@@ -141,7 +141,7 @@ ragScriptEditor
 2. Select the game folder and click "Continue"
 3. Open `GTA V\update\update2.rpf\x64\levels\gta5\script`
 4. Click the "Edit mode" button, and copy `X:\gta5\titleupdate\dev_ng\x64\levels\gta5\script\script.rpf` to the OpenIV window
-5. (OPTIONAL) Fix Story Mode by following the steps at the bottom
+5. (OPTIONAL) Fix Story Mode by following the steps at the bottom:
    1. Open `GTA V\update\update.rpf\common\data` and make sure "Edit Mode" is enabled
    2. Under "XML Text Files", right-click `gameconfig.xml` and click "Edit"
    3. Under "Search", type "51000"
@@ -150,7 +150,7 @@ ragScriptEditor
 6. Close OpenIV
 7. From `rush_patches-master.zip`, copy all files in the `ARCHIVEFIX` folder to a separate location
 8. Open `<GAME FOLDER>\update`, and drag `update.rpf` and then `update2.rpf` onto `ArchiveFix.exe`
-   * Do not drag the both files at the same time. 
+   * Don't drag the both files at the same time, This will not work with that way.
 10. Close both windows
 
 ## Running The Game
@@ -163,9 +163,10 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-kbgame` - Start game with game keyboard enabled.
  - `-output` - Show console log of game.
  - `-rag` - Enable support for RAG, the internal game debugging tool.
- - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
+    - `-ragUseOwnWindow` - Use it with `-rag` parameter to make game run outside of RAG Render Window.
+    - **DO NOT** Forget to Launch RAG Before launching the game if u using any RAG parameters.
  - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
-    - If you dont type this parameter, you will spawned in a random location as a random character with a random clothes. 
+    - If you dont type this parameter, you will spawned in a random location as a random character(michael, franklin or trevor) with a random clothes. 
  - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows DLC and Other Cars without getting removed.
  - Additional standard game arguments can be added as well.
    - [Here is all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
