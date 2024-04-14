@@ -8,13 +8,15 @@
 
 ## Main
 - [x] Game
-  - [ ] Script Hook V and ASI Loaders
+  - [ ] Script Hook V and ASI Loaders in BankRelease and Debug Builds
     - I didn't tested these in the Final Build, so maybe it'll work in Final Build.
 - [x] Tools
   - [x] Rage Script Editor
-  - [x] Rag UI and Interface
+  - [x] Rag
+    - [x] Rag UI
+    - [x] Rag Interface 
   - [x] Map Viewer
-  - [x] ShortcutMenu 
+  - [x] Shortcut Menu 
   - [x] Other Tools
     - Note that Some Perforce login required tools will not work, they need some modifications and Perforce.
       - Perforce Download Links:
