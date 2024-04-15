@@ -113,9 +113,6 @@ setx /m RS_PROJECT gta5
 
 ## Building Shaders
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
-    - If you building in "BankRelease", Dont forget to build shaders with "Release Win32 4.0" in **Configuration Manager**.
-    - Also, the same thing needs to apply to "shaders_dependency", Change "Debug" to "Release" in **Configuration Manager**
-    - **If you compiling the whole game in Debug, then ignore the steps at the top and continue reading the tutorial.**
 2. (OPTIONAL) Build low quality shaders
    1. Right click the "shaders_rc" project and click "Properties"
    2. Select `Configuration Properties > NMake`
