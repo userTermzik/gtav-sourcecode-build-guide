@@ -20,6 +20,7 @@
    - You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`
      - To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`
  - [update.rpf and update2.rpf from GTA V build 2699](https://mega.nz/file/3j5yAYzR#guzO1Yw80efLfmHIPdY8gcPFAHJn7ncF1voadjdpaLE)
+ - Some Patience, Brain and Knowledge.
 
 ### Dependencies
  - [Visual Studio 2012](https://files.dog/MSDN/Visual%20Studio%202012/en_visual_studio_ultimate_2012_x86_dvd_2262106.iso)
