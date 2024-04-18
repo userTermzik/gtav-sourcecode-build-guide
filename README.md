@@ -1,4 +1,4 @@
-![Icon](/misc/icon.png)
+![Icon](/misc/design/icon.png)
 
 # 📜 GTA V Source Code Build Guide
  
