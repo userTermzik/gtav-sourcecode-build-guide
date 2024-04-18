@@ -15,7 +15,7 @@
  - GTA V Files from Steam, Epic Games or Rockstar Games Launcher
  - Minimum 50GB Free Space, 130GB+ is Recommended because of the game files.
  - GTAVSP.7z - Source Code<br>
-    - **Download Link: [All Available Download Links](/misc/links.md)**
+    - **Download Link: [All Available Download Links](/source-code-links.md)**
     - Archive Password: `Mi76#b>9mRed`
    - You can verify the authenticity of the file by its SHA1 hash: `ca39323730ed644fa534a2946506d4287f92a799`
      - To verify with 7-Zip, right click the file and select `7-Zip > CRC SHA > SHA1`
