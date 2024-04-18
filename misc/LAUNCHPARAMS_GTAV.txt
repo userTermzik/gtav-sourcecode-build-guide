@@ -1566,6 +1566,7 @@
 -scriptSoundsDebug, "Ensable scripted sounds on screen debug");
 -scriptStreamSpew, "Ensable scripted stream spew");
 -scripttestname, "The name of the script test you wish to have invoked when the game boots.");
+-sc_DisableForbiddenVehicleRemoval, "This parameter allows DLC and Other Cars without getting removed.");
 -Sectordimx, "Sector x dimension." );
 -sectordimy, "Sector y dimension." );
 -sectortools, "Start game with the Sector Tools enabled." );
