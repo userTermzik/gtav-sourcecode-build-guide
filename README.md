@@ -165,7 +165,6 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
     - **DO NOT** Forget to Launch RAG Before launching the game if u using any RAG parameters.
  - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
     - If you dont type this parameter, you will spawned in a random location as a random character(michael, franklin or trevor) with a random clothes. 
- - `-sc_DisableForbiddenVehicleRemoval` - This parameter allows DLC and Other Cars without getting removed.
  - Additional standard game arguments can be added as well.
    - [Here is all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt
