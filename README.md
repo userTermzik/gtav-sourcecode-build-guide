@@ -49,7 +49,9 @@
 ___
 
 > [!NOTE]
-> It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC. VMWare/Hyper-V are recommended to run the VM due to their performance.
+> It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC.<br>
+> It's not recommended on your Real PC because sometimes the conflicts may happen and broke the whole compilation process.
+> **VMWare/Hyper-V are recommended to run the Virtual Machine due to their performance. VirtualBox will probably work too.**
 
 ## Prerequisite Setup
 1. Install DirectX SDK June 2010
