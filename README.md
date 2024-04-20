@@ -50,7 +50,7 @@ ___
 
 > [!NOTE]
 > It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC.<br>
-> It's not recommended on your Real PC because sometimes the conflicts may happen and broke the whole compilation process.
+> It's not recommended on your Real PC because sometimes the conflicts may happen and broke the whole compilation process.<br>
 > **VMWare/Hyper-V are recommended to run the Virtual Machine due to their performance. VirtualBox will probably work too.**
 
 ## Prerequisite Setup
