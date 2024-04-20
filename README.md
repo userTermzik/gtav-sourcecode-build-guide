@@ -1,6 +1,6 @@
 <!-- Made with ❤️ by Smashtika(@yungDoom) -->
 
-![Icon](/misc/design/iconv2/iconv2.png)
+![Icon](/other/design/iconv2/iconv2.png)
 
 # 📜 GTA V Source Code Build Guide V2
  
@@ -66,7 +66,7 @@ ___
       3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio.
 6. Install OpenIV
-7. Install [DLL Patches and Rush Patches](#miscellaneous)
+7. Install [DLL Patches and Rush Patches](#otherellaneous)
 8. (OPTIONAL) Install 3D Studio Max 2010 SDK
 9. Create X:\ Drive by following the steps at the bottom:
     1. Open Command Prompt
@@ -192,7 +192,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
     - If you dont type this parameter, you will spawned in a random location as a random character with a random clothes. 
  - Additional standard game arguments can be added as well.
-   - [Here is the almost all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
+   - [Here is the almost all the arguments list](other/LAUNCHPARAMS_GTAV.txt) 
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt:
 ```batch
 X:
@@ -205,6 +205,6 @@ rag
 
 ## BankRelease & Debug Controls
 
-[Almost Every Controls & Keys](/misc/controls)
+[Almost Every Controls & Keys](/other/controls)
 
 <!-- Made with ❤️ by Smashtika(@yungDoom) -->
