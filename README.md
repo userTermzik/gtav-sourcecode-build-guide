@@ -117,7 +117,8 @@ setx /m RS_PROJECT gta5
 10. Copy output binary to game folder.
 
 > [!WARNING]
-> Building shaders and scripts can be skipped using the [prebuilt files above](#prebuilt-files). These steps are here to allow modding or for those who prefer to build from source as much as possible.
+> Building shaders and scripts can be skipped using the [prebuilt files above](#prebuilt-files).<br>
+> These steps are here to allow modding or for those who prefer to build from source as much as possible.
 
 ## Building Shaders
 1. Under "Shaders", right click the "shaders_rc" project and click "Build"
@@ -142,6 +143,7 @@ ragScriptEditor
 
 
 ## Patching Game Assets
+
 #### Putting update.rpf and update2.rpf
 1. Install ``update.rpf and update2.rpf from GTA V build 2699`` from [Requirements](#requirements)
 2. Put `update.rpf` and `update2.rpf` files to `<Game Directory>\update\` folder.
