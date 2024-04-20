@@ -151,8 +151,8 @@ If you ever modify the RPF files, dont forget to encrpyt them.<br>
 Here you can see how to do it:
 
 1. From `rush_patches-master.zip`, copy all files in the `ARCHIVEFIX` folder to a separate location
-2. Drag RPF file onto `ArchiveFix.exe`
-   * Don't drag the both files at the same time, This will not work with that way.
+2. Drag RPF file(s) onto `ArchiveFix.exe`
+   * Don't drag the both files at the same time, **just drag one by one**, This will not work with that way.
 
 #### Replacing script.rpf
 If did you compiled the scripts and want to put it to the game, here you can follow this steps in order to make scripts work:
