@@ -14,7 +14,7 @@
 ### Base
  - Windows 10/11
     - [LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended, but you can use Normal Windows 10/11 too.
- - GTA V Files from Steam, Epic Games or Rockstar Games Launcher.
+ - Latest Grand Theft Auto V Files from Steam, Epic Games or Rockstar Games Launcher.
  - Minimum 50GB Free Space, 130GB+ is Recommended because of the game files.
  - GTAVSP.7z - Source Code<br>
     - **Download Link: [All Available Download Links](/source-code-links.md)**
