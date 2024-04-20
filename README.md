@@ -1,6 +1,6 @@
 <!-- Made with ❤️ by Smashtika(@yungDoom) -->
 
-![Icon](/misc/design/iconv2/iconv2.png)
+![Icon](/other/design/iconv2/iconv2.png)
 
 # 📜 GTA V Source Code Build Guide V2
  
@@ -14,7 +14,7 @@
 ### Base
  - Windows 10/11
     - [LTSC 2021](https://archive.org/download/Windows10EnterpriseLTSC202164Bit/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso) Recommended, but you can use Normal Windows 10/11 too.
- - GTA V Files from Steam, Epic Games or Rockstar Games Launcher.
+ - Latest Grand Theft Auto V Files from Steam, Epic Games or Rockstar Games Launcher.
  - Minimum 50GB Free Space, 130GB+ is Recommended because of the game files.
  - GTAVSP.7z - Source Code<br>
     - **Download Link: [All Available Download Links](/source-code-links.md)**
@@ -49,7 +49,9 @@
 ___
 
 > [!NOTE]
-> It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC. VMWare/Hyper-V are recommended to run the VM due to their performance.
+> It is recommended to create a virtual machine for this build process, Although the build process can be done on your Real PC.<br>
+> It's not recommended on your Real PC because sometimes the conflicts may happen and broke the whole compilation process.
+> **VMWare/Hyper-V are recommended to run the Virtual Machine due to their performance. VirtualBox will probably work too.**
 
 ## Prerequisite Setup
 1. Install DirectX SDK June 2010
@@ -64,7 +66,7 @@ ___
       3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio.
 6. Install OpenIV
-7. Install [DLL Patches and Rush Patches](#miscellaneous)
+7. Install [DLL Patches and Rush Patches](#otherellaneous)
 8. (OPTIONAL) Install 3D Studio Max 2010 SDK
 9. Create X:\ Drive by following the steps at the bottom:
     1. Open Command Prompt
@@ -190,7 +192,7 @@ game_win64_bankrelease.exe -noSocialClub -nokeyboardhook -nonetlogs
  - `-DoReleaseStartup` - Start real Story Mode on launch, Ignore if it says unknown parameter/command.
     - If you dont type this parameter, you will spawned in a random location as a random character with a random clothes. 
  - Additional standard game arguments can be added as well.
-   - [Here is the almost all the arguments list](misc/LAUNCHPARAMS_GTAV.txt) 
+   - [Here is the almost all the arguments list](other/LAUNCHPARAMS_GTAV.txt) 
 3. (OPTIONAL) Launch RAG with the following commands in Command Prompt:
 ```batch
 X:
@@ -203,6 +205,6 @@ rag
 
 ## BankRelease & Debug Controls
 
-[Almost Every Controls & Keys](/misc/controls)
+[Almost Every Controls & Keys](/other/controls)
 
 <!-- Made with ❤️ by Smashtika(@yungDoom) -->
