@@ -125,7 +125,7 @@ setx /m RS_PROJECT gta5
    1. Right click the "shaders_rc" project and click "Properties"
    2. Select `Configuration Properties > NMake`
    3. Under "General", change all command lines from ending with `win32_40.bat` to ending with `win32_40_lq.bat`, then click "Apply" and "OK".
-   4. Rebuild shaders..
+   4. Rebuild shaders and wait it to finish.
 3. Copy `X:\gta5\titleupdate\dev_ng\common` to game directory.
 
 ## Building Game Scripts
