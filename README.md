@@ -66,7 +66,7 @@ ___
       3. Paste the path and press Enter
    - Select to install "Incredibuild Agent", "Incredibuild Coordinator", and the extension for Visual Studio.
 6. Install OpenIV
-7. Install [DLL Patches and Rush Patches](#otherellaneous)
+7. Install [DLL Patches and Rush Patches](#miscellaneous)
 8. (OPTIONAL) Install 3D Studio Max 2010 SDK
 9. Create X:\ Drive by following the steps at the bottom:
     1. Open Command Prompt
