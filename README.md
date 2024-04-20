@@ -1,8 +1,8 @@
 <!-- Made with ❤️ by Smashtika(@yungDoom) -->
 
-![Icon](/other/design/iconv2/iconv2.png)
+![Icon](/other/design/iconv2.1/iconv2.1.png)
 
-# 📜 GTA V Source Code Build Guide V2
+# 📜 GTA V Source Code Build Guide V2.1
  
 🖥️ **Working Status of Tools and Game:** [See Here](/workingstatus.md)<br>
 🔨 **Known Bugs, Errors and Issues:** [See Here](/knownissues.md)
